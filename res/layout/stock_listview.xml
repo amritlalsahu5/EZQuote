@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:padding="5dp" 
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/stockNameTv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="StockSymbol"
+        android:layout_weight="1.5"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/priceTv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Current Price"
+        android:layout_weight="1.5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/changeButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:textStyle="bold"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:text="Change"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+</LinearLayout>

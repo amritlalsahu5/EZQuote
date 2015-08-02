@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_blackground_dark"
+    tools:context="com.example.finalproject.MarketSummaryActivity"
+    tools:ignore="MergeRootFrame" >
+
+    
+    <FrameLayout
+        android:id="@+id/detailcontainer"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
+        
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/stockscontainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </FrameLayout>
+ 
+
+        <FrameLayout
+            android:id="@+id/newscontainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
